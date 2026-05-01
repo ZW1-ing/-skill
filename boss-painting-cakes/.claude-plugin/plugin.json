@@ -1,0 +1,11 @@
+{
+  "name": "boss-painting-cakes",
+  "description": "老板画饼模拟器 - Agent 扮演老板角色，模拟经典画饼话术，帮助用户提前演练应对策略",
+  "author": {
+    "name": "Skills Developer",
+    "email": "developer@example.com"
+  },
+  "version": "1.0.0",
+  "category": "职场技能",
+  "tags": ["职场", "沟通", "演练", "画饼", "应对策略"]
+}
