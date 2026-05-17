@@ -6,21 +6,28 @@ A collection of custom skills for Claude Code to enhance your development workfl
 
 ### 🎯 Boss Painting Cakes Simulator (老板画饼模拟器)
 
-A workplace survival skill training tool. The Agent plays the role of your boss, simulating classic "painting empty promises" scenarios to help you practice response strategies.
+A workplace survival skill training tool with **interactive dialogue system**. The Agent plays the role of your boss, simulating classic "painting empty promises" scenarios.
 
 **Features:**
 - 10+ classic empty promise scenarios
-- Real role-playing with boss dialogue
-- Interactive practice with feedback
+- **Interactive choice system** - Choose from A/B/C/D options or type freely
+- **Multi-turn dialogue** - Boss responds and escalates based on your choices
+- **Dynamic boss personality** - Tactics evolve based on conversation
+- **Scene switching** - Change scenarios mid-conversation
 - Detailed analysis and improvement suggestions
-- Practical response templates
 
 **Usage:**
 ```bash
-/boss-painting-cakes                    # Random scenario
-/boss-painting-cakes 升职加薪           # Specific scenario
-/boss-painting-cakes 我刚拒绝加班       # Custom scenario
+/boss-painting-cakes                    # Enter main menu, choose scenario
+/boss-painting-cakes 升职加薪           # Direct to specific scenario
 ```
+
+**How it works:**
+- Start from main menu, choose a scenario (1-10) or describe custom scenario
+- Each round: Boss speaks → You choose A/B/C/D or type freely
+- Boss adapts based on your response (escalates, softens, changes topic)
+- Use commands: [继续] [换话题] [施压] [温和] [结束] [换场景]
+- End with "结束" or "复盘" for detailed analysis
 
 **Scenarios included:**
 1. Promotion promises
